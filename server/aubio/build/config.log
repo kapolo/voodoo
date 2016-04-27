@@ -1,0 +1,189 @@
+# project aubio (0.4.2) configured on Tue Apr 19 15:53:23 2016 by
+# waf 1.8.12 (abi 98, python 2070bf0 on darwin)
+# using ./waf configure
+#
+----------------------------------------
+Setting top to
+/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2
+----------------------------------------
+Setting out to
+/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build
+----------------------------------------
+Checking for 'clang' (C compiler)
+find program=['clang'] paths=['/usr/local/nvm/versions/node/v0.12.5/bin', '/usr/local/bin', '/usr/local/lib', '/usr/local/bin', '/usr/local/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/Users/snow/Documents/dev/install/w3af', '/Users/snow/Documents/dev/cordova/android-sdk/tools', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/current/51371/CNC-CorelDrawFormat-CutPatterns\\(Rev2\\)\\ \\(1\\)/uniconvertor-1.1.5/build/scripts-2.7', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/Users/snow/Documents/dev/install/bash-utils/bin', '/Users/snow/.rvm/bin'] var='CC' -> ['/usr/bin/clang']
+find program=['ar'] paths=['/usr/local/nvm/versions/node/v0.12.5/bin', '/usr/local/bin', '/usr/local/lib', '/usr/local/bin', '/usr/local/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/Users/snow/Documents/dev/install/w3af', '/Users/snow/Documents/dev/cordova/android-sdk/tools', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/current/51371/CNC-CorelDrawFormat-CutPatterns\\(Rev2\\)\\ \\(1\\)/uniconvertor-1.1.5/build/scripts-2.7', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/Users/snow/Documents/dev/install/bash-utils/bin', '/Users/snow/.rvm/bin'] var='AR' -> ['/usr/bin/ar']
+/usr/bin/clang
+----------------------------------------
+Checking for header stdlib.h
+==>
+#include <stdlib.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_0f752d3bd7797c6cd767846ee6f9969a/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_0f752d3bd7797c6cd767846ee6f9969a/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_0f752d3bd7797c6cd767846ee6f9969a/testbuild/testprog[0m
+
+['/usr/bin/clang', 'test.c.1.o', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_0f752d3bd7797c6cd767846ee6f9969a/testbuild/testprog', '-framework', 'CoreFoundation', '-framework', 'AudioToolbox', '-framework', 'Accelerate']
+yes
+----------------------------------------
+Checking for header stdio.h
+==>
+#include <stdio.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_2cb6e61584921626b7d2e198b8722b30/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '-DHAVE_STDLIB_H=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_2cb6e61584921626b7d2e198b8722b30/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_2cb6e61584921626b7d2e198b8722b30/testbuild/testprog[0m
+
+['/usr/bin/clang', 'test.c.1.o', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_2cb6e61584921626b7d2e198b8722b30/testbuild/testprog', '-framework', 'CoreFoundation', '-framework', 'AudioToolbox', '-framework', 'Accelerate']
+yes
+----------------------------------------
+Checking for header math.h
+==>
+#include <math.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_dd23f476e586427e9f9b04aad845dbd4/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '-DHAVE_STDLIB_H=1', '-DHAVE_STDIO_H=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_dd23f476e586427e9f9b04aad845dbd4/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_dd23f476e586427e9f9b04aad845dbd4/testbuild/testprog[0m
+
+['/usr/bin/clang', 'test.c.1.o', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_dd23f476e586427e9f9b04aad845dbd4/testbuild/testprog', '-framework', 'CoreFoundation', '-framework', 'AudioToolbox', '-framework', 'Accelerate']
+yes
+----------------------------------------
+Checking for header string.h
+==>
+#include <string.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_93460ff9411f56a34958db9bb006b882/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '-DHAVE_STDLIB_H=1', '-DHAVE_STDIO_H=1', '-DHAVE_MATH_H=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_93460ff9411f56a34958db9bb006b882/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_93460ff9411f56a34958db9bb006b882/testbuild/testprog[0m
+
+['/usr/bin/clang', 'test.c.1.o', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_93460ff9411f56a34958db9bb006b882/testbuild/testprog', '-framework', 'CoreFoundation', '-framework', 'AudioToolbox', '-framework', 'Accelerate']
+yes
+----------------------------------------
+Checking for header limits.h
+==>
+#include <limits.h>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_4c8b7a6b69a9d894f2a1088ec6b8efe4/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '-DHAVE_STDLIB_H=1', '-DHAVE_STDIO_H=1', '-DHAVE_MATH_H=1', '-DHAVE_STRING_H=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_4c8b7a6b69a9d894f2a1088ec6b8efe4/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_4c8b7a6b69a9d894f2a1088ec6b8efe4/testbuild/testprog[0m
+
+['/usr/bin/clang', 'test.c.1.o', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_4c8b7a6b69a9d894f2a1088ec6b8efe4/testbuild/testprog', '-framework', 'CoreFoundation', '-framework', 'AudioToolbox', '-framework', 'Accelerate']
+yes
+----------------------------------------
+Checking for C99 __VA_ARGS__ macro
+==>
+
+#include <stdio.h>
+#define AUBIO_ERR(...) fprintf(stderr, __VA_ARGS__)
+
+<==
+[1/2] Compiling [32mbuild/.conf_check_f22a4d6069c6453389a6e13db74ac5ef/test.c[0m
+
+['/usr/bin/clang', '-g', '-Wall', '-Wextra', '-fPIC', '-DHAVE_SOURCE_APPLE_AUDIO=1', '-DHAVE_SINK_APPLE_AUDIO=1', '-DHAVE_ACCELERATE=1', '-DHAVE_STDLIB_H=1', '-DHAVE_STDIO_H=1', '-DHAVE_MATH_H=1', '-DHAVE_STRING_H=1', '-DHAVE_LIMITS_H=1', '../test.c', '-c', '-o', '/Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2/build/.conf_check_f22a4d6069c6453389a6e13db74ac5ef/testbuild/test.c.1.o']
+[2/2] Linking [33mbuild/.conf_check_f22a4d6069c6453389a6e13db74ac5ef/testbuild/libtestprog.a[0m
+
+['/usr/bin/ar', 'rcs', 'libtestprog.a', 'test.c.1.o']
+err: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: file: libtestprog.a(test.c.1.o) has no symbols
+warning: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib: warning for library: libtestprog.a the table of contents is empty (no object file members in the library define global symbols)
+
+yes
+----------------------------------------
+Checking for FFT implementation
+vDSP
+----------------------------------------
+Checking for program 'pkg-config'
+/usr/local/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/nvm/versions/node/v0.12.5/bin', '/usr/local/bin', '/usr/local/lib', '/usr/local/bin', '/usr/local/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/Users/snow/Documents/dev/install/w3af', '/Users/snow/Documents/dev/cordova/android-sdk/tools', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/current/51371/CNC-CorelDrawFormat-CutPatterns\\(Rev2\\)\\ \\(1\\)/uniconvertor-1.1.5/build/scripts-2.7', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/Users/snow/Documents/dev/install/bash-utils/bin', '/Users/snow/.rvm/bin'] var='PKGCONFIG' -> ['/usr/local/bin/pkg-config']
+----------------------------------------
+Checking for 'sndfile' >= 1.0.4
+['/usr/local/bin/pkg-config', '--atleast-version=1.0.4', 'sndfile']
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'sndfile']
+out: -I/usr/local/Cellar/libsndfile/1.0.25/include -L/usr/local/Cellar/libsndfile/1.0.25/lib -lsndfile
+
+yes
+----------------------------------------
+Checking for 'samplerate' >= 0.0.15
+['/usr/local/bin/pkg-config', '--atleast-version=0.0.15', 'samplerate']
+not found
+from /Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2: The configuration failed
+----------------------------------------
+Checking for 'jack'
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'jack']
+out: -I/usr/local/include -L/usr/local/lib -ljack -framework CoreAudio -framework CoreServices -framework AudioUnit
+
+yes
+----------------------------------------
+Checking for 'libavcodec' >= 54.35.0
+['/usr/local/bin/pkg-config', '--atleast-version=54.35.0', 'libavcodec']
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'libavcodec']
+out: -I/usr/local/Cellar/ffmpeg/2.8.6/include -L/usr/local/Cellar/ffmpeg/2.8.6/lib -lavcodec
+
+yes
+----------------------------------------
+Checking for 'libavformat' >= 52.3.0
+['/usr/local/bin/pkg-config', '--atleast-version=52.3.0', 'libavformat']
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'libavformat']
+out: -I/usr/local/Cellar/ffmpeg/2.8.6/include -L/usr/local/Cellar/ffmpeg/2.8.6/lib -lavformat
+
+yes
+----------------------------------------
+Checking for 'libavutil' >= 52.3.0
+['/usr/local/bin/pkg-config', '--atleast-version=52.3.0', 'libavutil']
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'libavutil']
+out: -I/usr/local/Cellar/ffmpeg/2.8.6/include -L/usr/local/Cellar/ffmpeg/2.8.6/lib -lavutil
+
+yes
+----------------------------------------
+Checking for 'libavresample' >= 1.0.1
+['/usr/local/bin/pkg-config', '--atleast-version=1.0.1', 'libavresample']
+['/usr/local/bin/pkg-config', '--cflags', '--libs', 'libavresample']
+out: -I/usr/local/Cellar/ffmpeg/2.8.6/include -L/usr/local/Cellar/ffmpeg/2.8.6/lib -lavresample
+
+yes
+----------------------------------------
+Checking for all libav libraries
+not found
+----------------------------------------
+Checking for program 'txt2man'
+not found
+find program=['txt2man'] paths=['/usr/local/nvm/versions/node/v0.12.5/bin', '/usr/local/bin', '/usr/local/lib', '/usr/local/bin', '/usr/local/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/Users/snow/Documents/dev/install/w3af', '/Users/snow/Documents/dev/cordova/android-sdk/tools', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/current/51371/CNC-CorelDrawFormat-CutPatterns\\(Rev2\\)\\ \\(1\\)/uniconvertor-1.1.5/build/scripts-2.7', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/Users/snow/Documents/dev/install/bash-utils/bin', '/Users/snow/.rvm/bin'] var='TXT2MAN' -> None
+from /Users/snow/Documents/school/current/67364/exercize-5/aubio-0.4.2: Could not find the program ['txt2man']
+txt2man was not found (ignoring)
+----------------------------------------
+Checking for program 'doxygen'
+/usr/local/bin/doxygen
+find program=['doxygen'] paths=['/usr/local/nvm/versions/node/v0.12.5/bin', '/usr/local/bin', '/usr/local/lib', '/usr/local/bin', '/usr/local/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/opt/X11/bin', '/Users/snow/Documents/dev/install/w3af', '/Users/snow/Documents/dev/cordova/android-sdk/tools', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/current/51371/CNC-CorelDrawFormat-CutPatterns\\(Rev2\\)\\ \\(1\\)/uniconvertor-1.1.5/build/scripts-2.7', '/Users/snow/Documents/dev/cordova/android-sdk/platform-tools', '/Users/snow/Documents/dev/install/bash-utils/bin', '/Users/snow/.rvm/bin'] var='DOXYGEN' -> ['/usr/local/bin/doxygen']
